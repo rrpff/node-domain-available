@@ -1,0 +1,16 @@
+{
+  "name": "domain-available",
+  "version": "0.0.1",
+  "description": "Check if domain is available using freedomainapi.com",
+  "main": "index.js",
+  "keywords": [
+    "domain",
+    "available",
+    "freedomainapi"
+  ],
+  "author": "zuren",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.51.0"
+  }
+}
