@@ -53,6 +53,7 @@ DomainAvailable.prototype.check = function(urls, each, end){
         if(each)
             each.apply(this, args);
 
+        // Push API response to results array
         results.push(args[3]);
 
         // If all urls have now been checked, and end function provided, call with all results.
