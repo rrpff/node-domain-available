@@ -2,6 +2,14 @@
 Check if a domain name is available using `freedomainapi.com`.
 Requires an API key, you can get one [here](http://freedomainapi.com/).
 
+## Installation
+Install via [NPM](http://npmjs.org/):
+```js
+npm install domain-available
+```
+
+Domain-available uses `request`, so isn't available in the browser.
+
 ## Example
 
 ```js
